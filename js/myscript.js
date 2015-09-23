@@ -24,3 +24,17 @@ $('body').scrollspy({
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+// Filtering experiences
+var $btns = $('.btn').click(function() {
+  if (this.id == 'All') {
+    $('#parent > div').fadeIn(450);
+  } else {
+    var $el = $('.' + this.id).fadeIn(450);
+    $('#parent > div').not($el).hide();
+  }
+  $btns.removeClass('active');
+  $btns.removeClass('btn-inverse');
+  $(this).addClass('active');
+  $(this).addClass('btn-inverse');
+})
