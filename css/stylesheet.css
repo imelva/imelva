@@ -81,6 +81,12 @@ ps3, ps4, ps5, ps6 {
 	font-weight: 500;
 }
 
+.img-circle {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+
 .img-centered {
     margin: 0 auto;
 }
@@ -346,7 +352,7 @@ header .intro-text .intro-heading {
 }
 
 section {
-    padding: 100px 0;
+    padding: 60px 0;
 }
 
 section h2.section-heading {
@@ -356,7 +362,7 @@ section h2.section-heading {
 }
 
 section h3.section-subheading {
-    margin-bottom: 60px;
+    margin-bottom: 40px;
     text-transform: none;
     font-family: Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
@@ -366,7 +372,7 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
     section {
-        padding: 100px 0;
+        padding: 60px 0;
     }
 }
 
@@ -378,6 +384,7 @@ section h3.section-subheading {
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
+    height: 320px;
 }
 
 #portfolio .portfolio-item .portfolio-link {
@@ -444,6 +451,10 @@ section h3.section-subheading {
 
 #portfolio * {
     z-index: 2;
+}
+
+.portfolio-description {
+    margin-top: 10px;
 }
 
 @media(min-width:767px) {
@@ -534,6 +545,7 @@ section h3.section-subheading {
     position: relative;
     padding: 0;
     list-style: none;
+    margin-top: 40px;
 }
 
 .timeline:before {
@@ -997,6 +1009,35 @@ body {
   border-color: #F2DC95;
 }
 
+.about-me-img {
+    float: right;
+    margin: 25px;
+}
+
+.personality {
+    margin-bottom: 20px;
+    text-transform: none;
+    font-family: Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.skill-tag-container {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.skill-tag {
+    margin-top: 10px;
+    color: white;
+}
+
 .countdown_amount {
     display:block;
     font-size:36px;
@@ -1004,7 +1045,7 @@ body {
     padding-left:15px;
     line-height:0;
     font-family: Avenir, sans-serif;
-    font-weight:lighter;
+    font-weight: normal;
     color:#333;
 }
 
@@ -1014,7 +1055,7 @@ body {
     height:150px;
     margin:15px;
     border-radius: 50%;
-    border:2px solid #eee;
+    border:2px solid #a6a6a6;
     text-align: center;
 }
 
@@ -1022,15 +1063,9 @@ body {
     text-align: center;
 }
 
-.logoImg {
-    height:250px;
-    width:250px;
-    border:2px solid #eee;
-}
-
 .color4 .countdown_amount {
     color: white;
-    font-weight: 400;
+    font-weight: 700;
 }
 
 .color4 #defaultCountdown {
@@ -1039,7 +1074,7 @@ body {
 
 .color7 .countdown_amount {
     color: white;
-    font-weight: 400;
+    font-weight: 700;
     background-color: gray;
 }
 

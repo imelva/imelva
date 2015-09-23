@@ -55,19 +55,13 @@
             <a href="#page-top"></a>
           </li>
           <li>
-            <a class="page-scroll" href="#world">Elva's World</a>
+            <a class="page-scroll" href="#world">About</a>
           </li>
           <li>
-            <a class="page-scroll" href="#portfolio">My Portfolio</a>
+            <a class="page-scroll" href="#portfolio">Portfolio</a>
           </li>
           <li>
-            <a class="page-scroll" href="#about">My Experience</a>
-          </li>
-          <li>
-            <a class="page-scroll" href="#Involvement">My involvements</a>
-          </li>
-          <li>
-            <a class="page-scroll" href="#contact">Find me</a>
+            <a class="page-scroll" href="#about">Journey</a>
           </li>
         </ul>
       </div>
@@ -89,35 +83,36 @@
   <!-- About Me Section -->
   <section id="world">
     <div class="container">
-      <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading">Elva's World</h2>
           <h3 class="section-subheading text-muted">The truest freedom is of the mind,a conscious act to embrace the unknown</h3>
-          
-          <div class="row">
-              <div class="col-md-1 col-md-push-1">
-                <img src="img/elva effj.png" alt="" width='260' >
-                
+        </div>
+        <div class="row">
+            <div class="col-md-5">
+              <img src="img/elva effj.png" alt="" class="about-me-img" width="250" height="250" >              
+            </div>
+            <div class="col-md-7 col-md-pull-1">
+              <div class="col-md-12 col-md-push-1">  
+                <h4 class="center-text">courage, persistence & love</h4>
+                <h3 class="personality text-muted"> ENFJ, "The Giver"</h3>
+                <div class="type-snippet center-text"> 
+                  I appreciate all the good and bad encounters in my life but I've never believed in fate. Kindness has made me grateful and hardship has made me stronger. I got accepted to the Renmin University of China for journalism when I was only 11. I started hosting TV shows and provincial congress/conferences since elementary school. I volunteered teaching in rural China and found the kind of role I want to play in this world when I was 16.
+                </div>
+                <!-- Skill Tags -->
+                <div class="skill-tag-container">
+                    <button class="btn skill-tag">Lean Startups</button>
+                    <button class="btn skill-tag">Rapid prototyping</button>
+                    <button class="btn skill-tag">User Experience</button>
+                    <button class="btn skill-tag">Social Media</button>
+                    <button class="btn skill-tag">Product Design</button>
+                    <button class="btn skill-tag">Business Development</button>
+                    <button class="btn skill-tag">Digital Distribution</button>
+                </div>
               </div>
-              <div class="col-md-11 ">
-
-                 <div class="col-md-7 col-md-push-3">
-                       <h4>courage, persistence & love</h4>
-                       <h3 class="section-subheading text-muted"> ENFJ, "The Giver"</h3>
-				<div class="type-snippet"> I appreciate all the good and bad encounters in my life but I've never believed in fate. <br> Kindness has made me grateful and hardship has made me stronger. <br> I got accepted to the Renmin University of China for journalism when I was only 11. <br>  I started hosting TV shows and provincial congress/conferences since elementary school. <br>  I volunteered teaching in rural China and found the kind of role I want to play in this world when I was 16.
-</div>                
-            <button class="btn">Lean Startups</button>
-            <button class="btn">Rapid prototyping</button>
-            <button class="btn">User Experience</button>
-            <button class="btn">Product Design</button>
-            <button class="btn">Business Development</button>
-            <button class="btn">Digital Distribution</button>
-            <button class="btn">Social Media</button>
-
-
-          </div>
-              </div>
-          </div>
+            </div>
+        </div> 
+        <!-- Metrics -->
+        <div class="row">
           <br>&nbsp;<br>
           <div class="col-md-12">
             <div id="defaultCountdown" class="hasCountdown">
@@ -126,11 +121,11 @@
                   Users Acquired
                 </span>
               <span class="countdown_section">
-                <span class = "countdown_amount">3&nbsp;&nbsp;</span><br>
+                <span class = "countdown_amount">3&nbsp;</span><br>
                   Start-ups founded
                 </span>
               <span class="countdown_section">
-                <span class = "countdown_amount">18&nbsp;&nbsp;</span><br>
+                <span class = "countdown_amount">21&nbsp;</span><br>
                   Events organized
               </span>
               <span class="countdown_section">
@@ -139,10 +134,9 @@
               </span>
             </div>
           </div>
-          <br>&nbsp;<br>
-         
-        </div>
+          <br>&nbsp;<br>    
       </div>
+    </div>
   </section>
 
   <!-- Portfolio Grid Section -->
@@ -152,6 +146,7 @@
         <h2 class="section-heading">My Portfolio</h2>
         <h3 class="section-subheading text-muted"> Life is short. I build things that matter</h3>
       </div>
+      <!-- Filter buttons -->  
       <div class="col-lg-12 text-center">
         <button style="color: white" class="active btn btn-inverse" id="All">All</button>
         <button style="color: white" class="btn" id="StartUp">My start ups</button>
@@ -159,8 +154,10 @@
         <button style="color: white" class="btn" id="Organization">Organizations</button>
       </div>
       <p>''</p>
+      <!-- Grid -->
       <div class="row">
         <div id="parent">
+            <!-- Startups -->
             <div class="col-md-4 col-sm-6 portfolio-item box StartUp">
               <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                 <div class="portfolio-hover">
@@ -172,7 +169,9 @@
               </a>
               <div class="portfolio-caption">
                 <h4>CEO, ConNextor</h4>
-                <p class="text-muted"> A collaborative platform for students to take on projects and better opportunities</p>
+                <div class="portfolio-description">
+                    A collaborative platform for students to take on projects and better opportunities
+                </div>
               </div>
             </div>
             <div class="col-md-4 col-sm-6 portfolio-item box StartUp">
@@ -186,10 +185,13 @@
               </a>
               <div class="portfolio-caption">
                 <h4>COO, Soapbox</h4>
-                <p class="text-muted">A skilled volunteer matching site with experiencial rewards</p>
+                <div class="portfolio-description">
+                    A skilled volunteer matching site with experiencial rewards
+                </div>
               </div>
             </div>
-            <div class="col-md-4 col-sm-6 portfolio-item box Organization">
+            <!-- Internships -->
+            <div class="col-md-4 col-sm-6 portfolio-item box Internship">
               <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
                 <div class="portfolio-hover">
                   <div class="portfolio-hover-content">
@@ -199,8 +201,10 @@
                 <img src="img/My Startups/Spice Creation.png" class="img-responsive" alt="">
               </a>
               <div class="portfolio-caption">
-                <h4>Founder, Spice Creation</h4>
-                <p class="text-muted">A team of marketers, designers and developers who deliver excellence to restaurants</p>
+                <h4>Marketing Coordinator, University of Waterloo</h4>
+                <div class="portfolio-description">
+                    Planned and managed promotion strategy and events for uWaterloo Housing
+                </div>
               </div>
             </div>
             <div class="col-md-4 col-sm-6 portfolio-item box Internship">
@@ -213,11 +217,13 @@
                 <img src="img/Internships/Uken Games.jpg" class="img-responsive" alt="">
               </a>
               <div class="portfolio-caption">
-                <h4>Golden</h4>
-                <p class="text-muted">Website Design</p>
+                <h4>Growth Hacker, Uken Games</h4>
+                <div class="portfolio-description">
+                    Optimized and Increased Ad revenue across platforms by 40% and acquired over millions of users in less than 30 days within launch of ‘Titans'
+                </div>
               </div>
             </div>
-            <div class="col-md-4 col-sm-6 portfolio-item box StartUp">
+            <div class="col-md-4 col-sm-6 portfolio-item box Internship">
               <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
                 <div class="portfolio-hover">
                   <div class="portfolio-hover-content">
@@ -227,11 +233,14 @@
                 <img src="img/portfolio/escape.png" class="img-responsive" alt="">
               </a>
               <div class="portfolio-caption">
-                <h4>Escape</h4>
-                <p class="text-muted">Website Design</p>
+                <h4>Coordinator, ReLeaf Financial</h4>
+                <div class="portfolio-description">
+                    Led branding strategizing and recruiting events at Canada's first financial institution for students
+                </div>
               </div>
             </div>
-            <div class="col-md-4 col-sm-6 portfolio-item box Internship">
+            <!-- Organization -->
+            <div class="col-md-4 col-sm-6 portfolio-item box Organization">
               <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
                 <div class="portfolio-hover">
                   <div class="portfolio-hover-content">
@@ -241,8 +250,10 @@
                 <img src="img/portfolio/dreams.png" class="img-responsive" alt="">
               </a>
               <div class="portfolio-caption">
-                <h4>Dreams</h4>
-                <p class="text-muted">Website Design</p>
+                <h4>Founding Community Director (Canada), Kairos Society</h4>
+                <div class="portfolio-description">
+                    Kairos Society brings the world's most influential leaders, individuals, and corporations alike together with the innovators of tomorrow to solve world challenges
+                </div>
               </div>
             </div>
           </div>
@@ -250,13 +261,12 @@
     </div>
   </section>
 
-  <!-- About Section -->
+  <!-- Timeline Section -->
   <section id="about">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading"> Some Heighlights</h2>
-          <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          <h2 class="section-heading"> Some Highlights</h2>
         </div>
       </div>
       <div class="row">
@@ -346,7 +356,7 @@
                 </div>
               </div>
             </li>
-                        <li>
+            <li>
               <div class="timeline-image">
                 <img class="img-circle img-responsive" src="img/about/7.jpg" alt="">
               </div>
@@ -359,11 +369,10 @@
                   <p class="text-muted"> Moving from discovery to early sales, we've worked with many exciting companies including Quora, Uber and Square. We've pitched in front of 2000 people at the collision conference, got into both Launchpad & Velocity and got a free officespace in downtown kitchener with Communitech.
                 </div>
               </div>
-            </li>
-            <li>
+            </li>       
             <li class="timeline-inverted">
               <div class="timeline-image">
-                <h4>Be Part<br>Of Our<br>Story!</h4>
+                <h4>Be Part<br>Of my<br>Story<br><span class="glyphicon glyphicon-arrow-down"></span></h4>
               </div>
             </li>
           </ul>
@@ -372,7 +381,6 @@
     </div>
   </section>
 
-  <!-- Contact Section -->
   <footer>
     <div class="container">
       <div class="row">
